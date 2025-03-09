@@ -1,0 +1,8 @@
+pandas
+numpy
+chardet
+requests
+matplotlib
+seaborn
+streamlit
+babel

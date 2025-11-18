@@ -7,7 +7,7 @@ Sebuah dasboard interaktif untuk menganalisis data kualitas udara dari stasiun A
 
 <p align="center">
   <video controls width="720" poster="preview-image.png">
-    <source src="demo-video.mp4" type="video/mp4" />
+    <source src="[demo-video.mp4](https://github.com/user-attachments/assets/8769a345-62fd-4d31-ad8f-f670e2075366)" type="video/mp4" />
     Browser Anda tidak mendukung tag video. Unduh file <a href="demo-video.mp4">demo-video.mp4</a> untuk melihat cuplikan dashboard.
   </video>
 </p>

@@ -69,13 +69,13 @@ Diagram berikut mengilustrasikan alur data dasar dalam aplikasi dashboard:
 
 ```mermaid
 graph TD
-    A[Pengguna] --> B[Streamlit Dashboard (dashboard.py)]
+    A["Pengguna"] --> B["Streamlit Dashboard (dashboard.py)"]
     B --> C{Filter Tahun?}
-    C -- Ya --> E[Filter Data (Pandas)]
-    C -- Tidak --> D[Load Data (Pandas @st.cache_data)]
+    C -- Ya --> E["Filter Data (Pandas)"]
+    C -- Tidak --> D["Load Data (Pandas @st.cache_data)"]
     E --> D
-    D --> F[(data/PRSA_Data_...csv)]
-    D --> G[Visualisasi (Matplotlib/Seaborn)]
+    D --> F["(data/PRSA_Data_...csv)"]
+    D --> G["Visualisasi (Matplotlib/Seaborn)"]
     G --> B
 ````
 
